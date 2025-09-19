@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task3.css">
+    <title>Table&Form</title>
+</head>
+<body>
+    <h1>Table and Form</h1>
+<div class="list">
+    <a href="index.html">Task 1</a>
+    <a href="task2.html">Task 2</a>
+    <a href="#">Task 3</a>
+    <a href="task4.html">Task 4</a>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Subject & Grade</th>
+        </tr>
+        <tr>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sultantore</td>
+            <td>Database Management System</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Diyar</td>
+            <td>Design and Analysis of Algorithms</td>
+            <td>B+</td>
+        </tr>
+        <tr>
+            <td>Arlan</td>
+            <td>Linear Algebra</td>
+            <td>B-</td>
+        </tr>
+        <tr>
+            <td>Talgat</td>
+            <td>Web Technologies</td>
+            <td>A+</td>
+        </tr>
+    </tbody>
+</table>
+<div class="form">
+    <h2>Who is your IDOL?</h2>
+
+    <label>Name:</label>
+    <input type="text" required><br>
+    <label>Email:</label>
+    <input type="email" required><br>
+
+    <label>Idol:</label>
+    <select required>
+        <option value="" selected></option>
+        <option>Sultantore</option>
+        <option>Diyar</option>
+        <option>Arlan</option>
+        <option>Talgat</option>
+    </select><br>
+
+    <label>Do you love cats?</label><br>
+    <label>
+    ofc!
+    <input id="radio" type="radio" name="cats">
+    </label>
+    <label>
+    no..
+    <input id="radio" type="radio" name="cats">
+    </label>
+
+    <p id="note">Write a note for your idol:</p>
+    <textarea></textarea>
+
+    <button>submit</button>
+</div>
+<p id="footer">&copy; 2025 | Nuryshev Kaisar SE-2434</p>
+</body>
+</html>
