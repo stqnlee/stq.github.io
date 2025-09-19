@@ -1,0 +1,96 @@
+h1{
+    background-color: #9f4636;
+    border-bottom: 5px #8a3c2e outset;
+    border-right: 5px #8a3c2e outset;
+    color: #f1dcc9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+.list {
+    background-color: #9f4636;
+    border-bottom: 5px #42313a outset;
+    border-right: 5px #42313a outset;
+    border-radius: 15px;
+    margin-bottom: 26px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.list a {
+    margin: 40px;
+    padding: 20px;
+    padding-bottom: 21px;
+    text-decoration: none;
+    color: #f1dcc9;
+}
+.list a:nth-child(2) {
+    background-color: #722e22;
+    border-radius: 10px;
+}
+.list a:hover {
+    background-color: #cf543e;
+    border-radius: 10px;
+}
+.list a:active {
+    background-color: #722e22;
+    border-radius: 15px;
+}
+img{
+    position: relative;
+    bottom: 30px;
+    top: 15px;
+    left: 40%;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgb(61, 61, 61);
+}
+h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: #6c2d2c;
+    padding-top: 20px;
+}
+.about {
+    background-color: #f1dcc9;
+    color: #6c2d2c ;
+    padding: 20px;
+    max-width: 900px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+}
+.ach{
+    color: #6c2d2c;
+    background-color: #f1dcc9;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+.ach a{
+    color: #6c2d2c ;
+}
+.footer {
+    background-color: #9f4636;
+    color: #f1dcc9;
+    text-shadow: 3px 3px 0px black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 5px #42313a outset;
+    border-right: 5px #42313a outset;
+    border-radius: 15px;
+    padding: 20px;
+}

@@ -1,0 +1,126 @@
+h1{
+    background-color: #9f4636;
+    border-bottom: 5px #8a3c2e outset;
+    border-right: 5px #8a3c2e outset;
+    color: #f1dcc9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+.list{
+    background-color: #9f4636;
+    border-bottom: 5px #42313a outset;
+    border-right: 5px #42313a outset;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.list a {
+    margin: 40px;
+    padding: 20px;
+    padding-bottom: 21px;
+    text-decoration: none;
+    color: #f1dcc9;
+}
+.list a:nth-child(1) {
+    background-color: #722e22;
+    border-radius: 10px;
+}
+.list a:hover {
+    background-color: #cf543e;
+    border-radius: 15px;
+}
+.list a:active {
+    background-color: #722e22;
+    border-radius: 10px;
+}
+.main {
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: #f1dcc9;
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.main h2 {
+    font-size: 30px;
+    padding-left: 20px;
+    color: #6c2d2c;
+}
+.main ul li {
+    text-decoration: none; 
+    font-size: 22px;
+    padding: 20px;
+    color: #6c2d2c;
+}
+.main a {
+    text-decoration: none;
+    color: #6c2d2c;
+    padding: 15px;
+}
+.main a.menu1 {
+    background-color: #6c2d2c;
+    border-radius: 15px;
+    color: #f1dcc9;
+    box-shadow: 3px 3px 1px grey;
+}
+.main a:hover {
+    background-color: #6c2d2c;
+    border-radius: 15px;
+    color: #f1dcc9;
+    box-shadow: 3px 3px 1px grey;
+}
+.main a:active {
+    background-color: #a24544;
+    color: #f1dcc9;
+    border-radius: 10px;
+}
+.home{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #f1dcc9;
+    height: auto;
+    margin-left: 21%;
+}
+.home h2 {
+    font-size: 32px;
+    padding-left: 20px;
+    color: #6c2d2c;
+}
+.home p{
+    text-decoration: none; 
+    color: #6c2d2c;
+    padding: 20px;
+    font-size: 20px;
+}
+img{
+    position: relative;
+    bottom: 10px;
+    left: 10%;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black
+}
+#footer {
+    background-color: #9f4636;
+    color: #f1dcc9;
+    text-shadow: 3px 3px 0px black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 5px #42313a outset;
+    border-right: 5px #42313a outset;
+    border-radius: 15px;
+    padding: 20px;
+    clear: both;
+}
